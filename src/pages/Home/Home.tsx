@@ -10,14 +10,14 @@ import CityButton from "../../components/CityButton/CityButton.tsx";
 
 const Home = () => {
     const images: string[] = [
-        "/images/default-image (5).jpg",
-        "/images/default-image (6).jpg",
-        "/images/default-image (7).jpg",
-        "/images/default-image (8).jpg",
-        "/images/default-image (9).jpg",
-        "/images/default-image (10).jpg",
-        "/images/default-image (1).jpg",
-        "/images/default-image (2).jpg",
+        "/public/images/default-image (5).jpg",
+        "/public/images/default-image (6).jpg",
+        "/public/images/default-image (7).jpg",
+        "/public/images/default-image (8).jpg",
+        "/public/images/default-image (9).jpg",
+        "/public/images/default-image (10).jpg",
+        "/public/images/default-image (1).jpg",
+        "/public/images/default-image (2).jpg",
     ];
     interface ProductImage {
         image: string,
@@ -26,22 +26,22 @@ const Home = () => {
     }
     const productImages: ProductImage[] = [
         {
-            image: "/images/default-image (1).jpg",
+            image: "/public/images/default-image (1).jpg",
             title: "3 BHK, NEAR RAJPATH",
             description: "Fully furnished, good neighbourhood"
         },
         {
-            image: "/images/default-image (2).jpg",
+            image: "/public/images/default-image (2).jpg",
             title: "2 BHK, NEAR SAKET",
             description: "Fully furnished, posh neighbourhood"
         },
         {
-            image: "/images/default-image (3).jpg",
+            image: "/public/images/default-image (3).jpg",
             title: "3 BHK, NEAR SHANTI NIKETAN",
             description: "Fully furnished, good neighbourhood"
         },
         {
-            image: "/images/default-image (4).jpg",
+            image: "/public/images/default-image (4).jpg",
             title: "3 BHK, NEAR MALVIYA NAGAR",
             description: "Fully furnished, good neighbourhood"
         }
