@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    font-size: 12px;
+    max-width: 1920px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-teritary4) transparent;
+}
+
+html::-webkit-scrollbar {
+    width: 12px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: var(--color-primary4);
+    border-radius: 12px;
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+:root {
+    /* Colors */
+    --color-primary1: #FEFEFF;
+    --color-primary2: #E6E6FE;
+    --color-primary3: #CFCFFC;
+    --color-primary4: #B8B8F9;
+    --color-primary5: #A3A3F5;
+    --color-secondary1: #220F10;
+    --color-secondary2: #6A2F32;
+    --color-secondary3: #B14E53;
+    --color-secondary4: #D09598;
+    --color-secondary5: #D09598;
+    --color-teritary1: #2C070A;
+    --color-teritary2: #84151E;
+    --color-teritary3: #DB2433;
+    --color-teritary4: #EA7B84;
+    --color-teritary5: #F8D3D6;
+    --color-quaternary1: #1B1818;
+    --color-quaternary2: #514849;
+    --color-quaternary3: #87787A;
+    --color-quaternary4: #B7AEAF;
+    --color-quaternary5: #E7E4E4;
+    /* Typography */
+    --font-primary: 'Poppins', sans-serif;
+    --font_weight-bold: 500;
+    --text-hero: 8rem; /* 128px */
+    --text-heading1: 6rem; /* 96px */
+    --text-heading2: 5rem; /* 80px */
+    --text-heading3: 4rem; /* 64px */
+    --text-heading4: 3rem; /* 48px */
+    --text-heading5: 2rem; /* 32px */
+    --text-paragraph1: 3rem; /* 48px */
+    --text-paragraph2: 2.5rem; /* 40px */
+    --text-paragraph3: 2rem; /* 32px */
+    --text-paragraph4: 1.5rem; /* 24px */
+    --text-paragraph5: 1rem; /* 16px */
+    /* Spacing */
+    --spacing-5: 0.3125rem; /* 5px */
+    --spacing-10: 0.625rem;  /* 10px */
+    --spacing-15: 0.9375rem; /* 15px */
+    --spacing-20: 1.25rem;   /* 20px */
+    --spacing-30: 1.875rem;  /* 30px */
+    --spacing-40: 2.5rem;    /* 40px */
+    --spacing-50: 3.125rem;  /* 50px */
+    --spacing-60: 3.75rem;   /* 60px */
+    --spacing-70: 4.375rem;  /* 70px */
+    --spacing-80: 5rem;  /* 80px */
+    --spacing-100: 6.25rem;  /* 100px */
+    --spacing-130: 8.125rem;  /* 130px */
+}
+
+@media (max-width: 1000px) {
+    html {
+        font-size: 9px;
+    }
+}

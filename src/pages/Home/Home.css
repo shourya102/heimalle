@@ -1,0 +1,4 @@
+.red-shadow-solid {
+    filter: drop-shadow(-15px 15px 0 var(--color-teritary3));
+}
+
