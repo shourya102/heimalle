@@ -10,14 +10,14 @@ import CityButton from "../../components/CityButton/CityButton.tsx";
 
 const Home = () => {
     const images: string[] = [
-        "/src/assets/images/default-image (5).jpg",
-        "/src/assets/images/default-image (6).jpg",
-        "/src/assets/images/default-image (7).jpg",
-        "/src/assets/images/default-image (8).jpg",
-        "/src/assets/images/default-image (9).jpg",
-        "/src/assets/images/default-image (10).jpg",
-        "/src/assets/images/default-image (1).jpg",
-        "/src/assets/images/default-image (2).jpg",
+        "/images/default-image (5).jpg",
+        "/images/default-image (6).jpg",
+        "/images/default-image (7).jpg",
+        "/images/default-image (8).jpg",
+        "/images/default-image (9).jpg",
+        "/images/default-image (10).jpg",
+        "/images/default-image (1).jpg",
+        "/images/default-image (2).jpg",
     ];
 
     interface ProductImage {
@@ -28,22 +28,22 @@ const Home = () => {
 
     const productImages: ProductImage[] = [
         {
-            image: "/src/assets/images/default-image (1).jpg",
+            image: "/images/default-image (1).jpg",
             title: "3 BHK, NEAR RAJPATH",
             description: "Fully furnished, good neighbourhood"
         },
         {
-            image: "/src/assets/images/default-image (2).jpg",
+            image: "/images/default-image (2).jpg",
             title: "2 BHK, NEAR SAKET",
             description: "Fully furnished, posh neighbourhood"
         },
         {
-            image: "/src/assets/images/default-image (3).jpg",
+            image: "/images/default-image (3).jpg",
             title: "3 BHK, NEAR SHANTI NIKETAN",
             description: "Fully furnished, good neighbourhood"
         },
         {
-            image: "/src/assets/images/default-image (4).jpg",
+            image: "/images/default-image (4).jpg",
             title: "3 BHK, NEAR MALVIYA NAGAR",
             description: "Fully furnished, good neighbourhood"
         }
@@ -171,7 +171,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="absolute md:translate-x-1/3 xl:translate-x-1/2 z-0">
-                    <img className="w-[50rem]" src="/src/assets/svgs/asset-svg (1).svg" alt="hero-art"/>
+                    <img className="w-[50rem]" src="/svgs/asset-svg (1).svg" alt="hero-art"/>
                 </div>
             </div>
             <div className="h-[110svh] bg-quaternary-5 py-50 flex flex-col text-secondary-1">
@@ -198,14 +198,14 @@ const Home = () => {
                 <div className="flex w-full items-center px-30 md:px-40 lg:px-50 xl:px-60 gap-20">
                     <div className="flex flex-col flex-grow justify-center items-start gap-50">
                         <div>
-                            <img className="w-[25rem]" src="/src/assets/svgs/asset-svg (5).svg" alt="svg-1"/>
+                            <img className="w-[25rem]" src="/svgs/asset-svg (5).svg" alt="svg-1"/>
                             <div className="text-paragraph2 gap-10 flex items-center justify-center">
                                 <span><PiNumberCircleOne/></span>
                                 <span>Search</span>
                             </div>
                         </div>
                         <div>
-                            <img className="w-[25rem]" src="/src/assets/svgs/asset-svg (4).svg" alt="svg-2"/>
+                            <img className="w-[25rem]" src="/svgs/asset-svg (4).svg" alt="svg-2"/>
                             <div className="text-paragraph2 gap-10 flex items-center justify-center">
                                 <span><PiNumberCircleTwo/></span>
                                 <span>Compare</span>
@@ -214,14 +214,14 @@ const Home = () => {
                     </div>
                     <div className="flex flex-col flex-grow justify-center items-end gap-50">
                         <div>
-                            <img className="w-[25rem]" src="/src/assets/svgs/asset-svg (3).svg" alt="svg-3"/>
+                            <img className="w-[25rem]" src="/svgs/asset-svg (3).svg" alt="svg-3"/>
                             <div className="text-paragraph2 gap-10 flex items-center justify-center">
                                 <span><PiNumberCircleThree/></span>
                                 <span>Check Out</span>
                             </div>
                         </div>
                         <div>
-                            <img className="w-[25rem]" src="/src/assets/svgs/asset-svg (2).svg" alt="svg-4"/>
+                            <img className="w-[25rem]" src="/svgs/asset-svg (2).svg" alt="svg-4"/>
                             <div className="text-paragraph2 gap-10 flex items-center justify-center">
                                 <span><PiNumberCircleFour/></span>
                                 <span>Move In</span>
@@ -230,7 +230,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="absolute hidden md:flex w-full h-full justify-center inset-0 top-[47%] z-20">
-                    <img className="w-[50rem]" src="/src/assets/svgs/asset-svg (7).svg" alt="phone-svg"/>
+                    <img className="w-[50rem]" src="/svgs/asset-svg (7).svg" alt="phone-svg"/>
                 </div>
             </div>
             <div className="min-h-svh relative text-secondary-1 z-40">

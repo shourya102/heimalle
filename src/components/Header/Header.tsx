@@ -7,7 +7,7 @@ const Header: React.FC = () => {
         <div className="bg-primary-1 md:px-50 sm:px-20 md:py-30 sm:py-20 flex justify-between">
             <div className="flex gap-10">
                 <button>
-                    <img className="w-[14rem] px-30" alt="logo" src="/src/assets/svgs/asset-svg (8).svg"/>
+                    <img className="w-[14rem] px-30" alt="logo" src="/svgs/asset-svg (8).svg"/>
                 </button>
                 <div className="xl:flex hidden gap-20 text-heading5 text-secondary-1">
                     <button>Home</button>
