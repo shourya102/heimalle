@@ -229,7 +229,7 @@ const Home = () => {
                 <div className="flex flex-grow pt-130 pb-30 justify-center items-end">
                     <div className="text-tertiary-4 font-semibold text-heading3">Check out rooms near you!</div>
                 </div>
-                <div className="flex gap-130 w-full justify-center">
+                <div className="flex gap-130 min-w-full justify-center">
                     {productImages.map((product, index) => (
                         <ProductCard title={product.title} description={product.description} image={product.image} key={index}/>
                     ))}

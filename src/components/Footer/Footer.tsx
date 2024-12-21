@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <div
-            className="flex justify-center w-full gap-80 py-50 h-[21.5rem] bg-tertiary-3 text-primary-1 text-paragraph4">
+            className="flex flex-wrap justify-center w-full gap-80 py-50 min-h-[21.5rem] bg-tertiary-3 text-primary-1 text-paragraph4">
             <div className="gap-10 flex flex-col">
                 <div className="p-5 bg-primary-1"><img className="w-[10rem]" src="/src/assets/svgs/asset-svg (8).svg"
                                                        alt="logo"/></div>
