@@ -1,4 +1,4 @@
-import {IoIosHappy, IoLogoFacebook, IoLogoGoogle, IoLogoTwitter} from "react-icons/io";
+import {IoIosHappy} from "react-icons/io";
 
 const OtpPage = () => {
     return (

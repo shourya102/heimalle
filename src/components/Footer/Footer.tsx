@@ -25,7 +25,8 @@ const Footer = () => {
             </div>
             <div className="flex flex-col items-end gap-20">
                 <div className="font-semibold">Subscribe for Exclusive Deals and Updates</div>
-                <input type="text" className="w-full p-10 text-secondary-1 border border-quaternary-4 text-end" placeholder="Email"/>
+                <input type="text" className="w-full p-10 text-secondary-1 border border-quaternary-4 text-end"
+                       placeholder="Email"/>
                 <button className="p-10 drop-shadow-2xl bg-primary-1 text-tertiary-3 w-fit">Subscribe</button>
             </div>
         </div>

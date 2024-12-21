@@ -19,11 +19,13 @@ const Home = () => {
         "/images/default-image (1).jpg",
         "/images/default-image (2).jpg",
     ];
+
     interface ProductImage {
         image: string,
         title: string,
         description: string
     }
+
     const productImages: ProductImage[] = [
         {
             image: "/images/default-image (1).jpg",
@@ -46,9 +48,11 @@ const Home = () => {
             description: "Fully furnished, good neighbourhood"
         }
     ];
-    interface City{
+
+    interface City {
         city: string,
     }
+
     const cities: City[] = [
         {
             city: "New Delhi",
@@ -97,37 +101,37 @@ const Home = () => {
         },
         {
             city: "Raipur"
-       },
-       {
-           city: "Agra"
-       },
-       {
-           city: "Vadodara"
-       },
-       {
-           city: "Coimbatore"
-       },
-       {
-           city: "Thiruvananthapuram"
-       },
-       {
-           city: "Vishakhapatnam"
-       },
-       {
-           city: "Ranchi"
-       },
-       {
-           city: "Surat"
-       },
-       {
-           city: "Mysore"
-       },
+        },
+        {
+            city: "Agra"
+        },
+        {
+            city: "Vadodara"
+        },
+        {
+            city: "Coimbatore"
+        },
+        {
+            city: "Thiruvananthapuram"
+        },
+        {
+            city: "Vishakhapatnam"
+        },
+        {
+            city: "Ranchi"
+        },
+        {
+            city: "Surat"
+        },
+        {
+            city: "Mysore"
+        },
     ]
     const [ref, {width}] = useMeasure();
     const xTranslation = useMotionValue(0);
 
     useEffect(() => {
-        const finalPosition = -width/2;
+        const finalPosition = -width / 2;
         const controls = animate(xTranslation, [0, finalPosition], {
             ease: "linear",
             repeat: Infinity,
@@ -155,11 +159,15 @@ const Home = () => {
                     </div>
                     <div className="p-10 gap-40 flex flex-col">
                         <div className="flex flex-col gap-20">
-                            <input type="text" placeholder="Landmark" className="bg-primary-1 focus:border focus:border-tertiary-3 text-secondary-1 p-2 border border-primary-3 text-paragraph4"/>
-                            <input type="text" placeholder="Locality" className="bg-primary-1 focus:border focus:border-tertiary-3 text-secondary-1 p-2 border border-primary-3 text-paragraph4"/>
-                            <input type="text" placeholder="City" className="bg-primary-1 focus:border focus:border-tertiary-3 text-secondary-1 p-2 border border-primary-3 text-paragraph4"/>
+                            <input type="text" placeholder="Landmark"
+                                   className="bg-primary-1 focus:border focus:border-tertiary-3 text-secondary-1 p-2 border border-primary-3 text-paragraph4"/>
+                            <input type="text" placeholder="Locality"
+                                   className="bg-primary-1 focus:border focus:border-tertiary-3 text-secondary-1 p-2 border border-primary-3 text-paragraph4"/>
+                            <input type="text" placeholder="City"
+                                   className="bg-primary-1 focus:border focus:border-tertiary-3 text-secondary-1 p-2 border border-primary-3 text-paragraph4"/>
                         </div>
-                        <button className="p-10 bg-tertiary-3 w-full text-paragraph3 border border-tertiary-2">Search</button>
+                        <button className="p-10 bg-tertiary-3 w-full text-paragraph3 border border-tertiary-2">Search
+                        </button>
                     </div>
                 </div>
                 <div className="absolute md:translate-x-1/3 xl:translate-x-1/2 z-0">
@@ -168,10 +176,10 @@ const Home = () => {
             </div>
             <div className="h-[110svh] bg-quaternary-5 py-50 flex flex-col text-secondary-1">
                 <div className="gap-10 px-30 flex flex-col flex-grow h-[100%] justify-center">
-                        <div className="text-heading3">Cheap. Comfortable. Maybe even <span
-                            className="text-tertiary-3">extravagant?</span></div>
-                        <div className="text-paragraph1">Explore a multitude of properties and rooms at your leisure
-                        </div>
+                    <div className="text-heading3">Cheap. Comfortable. Maybe even <span
+                        className="text-tertiary-3">extravagant?</span></div>
+                    <div className="text-paragraph1">Explore a multitude of properties and rooms at your leisure
+                    </div>
                 </div>
                 <div className="flex flex-grow h-[100%] overflow-clip">
                     <motion.div className="flex" ref={ref} style={{x: xTranslation}}>
@@ -231,7 +239,8 @@ const Home = () => {
                 </div>
                 <div className="flex gap-130 min-w-full justify-center">
                     {productImages.map((product, index) => (
-                        <ProductCard title={product.title} description={product.description} image={product.image} key={index}/>
+                        <ProductCard title={product.title} description={product.description} image={product.image}
+                                     key={index}/>
                     ))}
                 </div>
                 <div className="absolute inset-0 -z-10 top-[40%] h-[20rem] bg-tertiary-4 w-full"></div>
