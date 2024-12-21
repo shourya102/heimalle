@@ -2,7 +2,7 @@ import {IoMdLocate, IoMdPerson, IoMdPricetag} from "react-icons/io";
 import {GiHamburgerMenu} from "react-icons/gi";
 import React from "react";
 
-const Header : React.FC = () => {
+const Header: React.FC = () => {
     return (
         <div className="bg-primary-1 md:px-50 sm:px-20 md:py-30 sm:py-20 flex justify-between">
             <div className="flex gap-10">

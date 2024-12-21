@@ -76,15 +76,15 @@ html::-webkit-scrollbar-track {
     --text-paragraph5: 1rem; /* 16px */
     /* Spacing */
     --spacing-5: 0.3125rem; /* 5px */
-    --spacing-10: 0.625rem;  /* 10px */
+    --spacing-10: 0.625rem; /* 10px */
     --spacing-15: 0.9375rem; /* 15px */
-    --spacing-20: 1.25rem;   /* 20px */
-    --spacing-30: 1.875rem;  /* 30px */
-    --spacing-40: 2.5rem;    /* 40px */
-    --spacing-50: 3.125rem;  /* 50px */
-    --spacing-60: 3.75rem;   /* 60px */
-    --spacing-70: 4.375rem;  /* 70px */
-    --spacing-80: 5rem;  /* 80px */
-    --spacing-100: 6.25rem;  /* 100px */
-    --spacing-130: 8.125rem;  /* 130px */
+    --spacing-20: 1.25rem; /* 20px */
+    --spacing-30: 1.875rem; /* 30px */
+    --spacing-40: 2.5rem; /* 40px */
+    --spacing-50: 3.125rem; /* 50px */
+    --spacing-60: 3.75rem; /* 60px */
+    --spacing-70: 4.375rem; /* 70px */
+    --spacing-80: 5rem; /* 80px */
+    --spacing-100: 6.25rem; /* 100px */
+    --spacing-130: 8.125rem; /* 130px */
 }
