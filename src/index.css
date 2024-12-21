@@ -88,9 +88,3 @@ html::-webkit-scrollbar-track {
     --spacing-100: 6.25rem;  /* 100px */
     --spacing-130: 8.125rem;  /* 130px */
 }
-
-@media (max-width: 1000px) {
-    html {
-        font-size: 9px;
-    }
-}

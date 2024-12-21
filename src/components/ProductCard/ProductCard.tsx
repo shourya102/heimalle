@@ -15,7 +15,7 @@ const ProductCard: React.FC<ProductCardProps> = ({image, title, description}) =>
                 <img className="w-full h-full bg-cover" src={image} alt={image}/>
             </div>
             <div className="flex flex-col flex-grow gap-20 bg-quaternary-5 pt-10">
-                <div className="flex flex-col justify-between gap-10 flex-grow items-center">
+                <div className="flex flex-col p-10 justify-between gap-10 flex-grow items-center">
                     <div className="gap-10 flex-grow text-secondary-1 px-15">
                         <div className="text-paragraph4 font-semibold text-center">{title}</div>
                         <div className="text-paragraph5 text-center text-wrap px-10">{description}</div>
