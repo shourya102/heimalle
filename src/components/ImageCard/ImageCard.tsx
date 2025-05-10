@@ -2,15 +2,16 @@ import {AnimatePresence, motion} from "framer-motion";
 import React, {useState} from "react";
 
 interface ImageProps {
-    image: string;
+    image: string,
+    className?: string,
 }
 
-const ImageCard: React.FC<ImageProps> = ({image}) => {
+const ImageCard: React.FC<ImageProps> = ({image, className}) => {
     const [showOverlay, setShowOverlay] = useState<boolean>(false)
 
     return (
         <motion.div onHoverStart={() => setShowOverlay(true)} onHoverEnd={() => setShowOverlay(false)}
-                    className="relative z-10 w-[33rem] h-[27rem]">
+                    className={`${className} relative z-10 w-[33rem] h-[27rem]`}>
             <AnimatePresence>
                 {showOverlay && <motion.div
                     initial={{opacity: 0}}

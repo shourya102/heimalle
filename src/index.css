@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-input:focus {
+input:focus, textarea:focus {
     outline: none;
+}
+
+label {
+    user-select: none;
 }
 
 a {
@@ -17,6 +21,7 @@ html {
     scroll-behavior: smooth;
     scrollbar-width: thin;
     scrollbar-color: var(--color-teritary4) transparent;
+    font-family: 'Poppins', sans-serif;
 }
 
 html::-webkit-scrollbar {

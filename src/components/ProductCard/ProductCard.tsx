@@ -6,11 +6,12 @@ interface ProductCardProps {
     image: string;
     title: string;
     description: string;
+    className?: string;
 }
 
-const ProductCard: React.FC<ProductCardProps> = ({image, title, description}) => {
+const ProductCard: React.FC<ProductCardProps> = ({image, title, description, className}) => {
     return (
-        <div className="bg-primary-1 flex flex-col w-[19rem] h-[44rem] dark-shadow-blur">
+        <div className={`${className} bg-primary-1 flex flex-col w-[19rem] h-[44rem] dark-shadow-blur`}>
             <div className="h-[24rem] p-50">
                 <img className="w-full h-full bg-cover" src={image} alt={image}/>
             </div>
